@@ -1,0 +1,6 @@
+package com.yalang.flutter_study_app
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
