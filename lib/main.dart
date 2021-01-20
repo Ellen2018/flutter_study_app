@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study_app/IconButtonStudy.dart';
+import 'package:flutter_study_app/RaisedButtonStudy.dart';
 import 'package:flutter_study_app/Test.dart';
 import 'package:flutter_study_app/TextStudy.dart';
 
 void main() {
   //配置App
-  runApp(new StudyIconButtonApp());
+  runApp(new StudyRaisedButtonApp());
 }
 
 class MyApp extends StatelessWidget {
