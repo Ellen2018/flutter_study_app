@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study_app/Test.dart';
+import 'package:flutter_study_app/TextStudy.dart';
 
 void main() {
   //配置App
-  runApp(ContainerStudyApp());
+  runApp(new MaterialApp(title: 'Text Study',home: new StudyTextApp(),));
 }
 
 class MyApp extends StatelessWidget {
