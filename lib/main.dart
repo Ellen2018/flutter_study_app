@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study_app/ChenLang.dart';
+import 'package:flutter_study_app/GridViewStudy.dart';
 import 'package:flutter_study_app/IconButtonStudy.dart';
 import 'package:flutter_study_app/ListViewStudy.dart';
 import 'package:flutter_study_app/RaisedButtonStudy.dart';
-import 'package:flutter_study_app/Test.dart';
+import 'package:flutter_study_app/ContainerStudy.dart';
 import 'package:flutter_study_app/TextStudy.dart';
 
 void main() {
   //配置App
-  runApp(new StudyListViewApp3());
+  runApp(new StudyGridViewApp());
 }
 
 class MyApp extends StatelessWidget {
