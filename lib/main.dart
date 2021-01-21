@@ -8,12 +8,13 @@ import 'package:flutter_study_app/ContainerStudy.dart';
 import 'package:flutter_study_app/TextFormFieldStudy.dart';
 import 'package:flutter_study_app/TextStudy.dart';
 import 'package:flutter_study_app/material/StudyAppBar.dart';
+import 'package:flutter_study_app/material/StudyBottomNavigationBar.dart';
 import 'package:flutter_study_app/material/StudyRoute.dart';
 import 'package:flutter_study_app/material/StudyScaffold.dart';
 
 void main() {
   //配置App
-  runApp(new StudyAppBarApp());
+  runApp(new StudyBottomNavigationBarApp());
 }
 
 class MyApp extends StatelessWidget {
