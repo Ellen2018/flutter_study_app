@@ -11,10 +11,11 @@ import 'package:flutter_study_app/material/StudyAppBar.dart';
 import 'package:flutter_study_app/material/StudyBottomNavigationBar.dart';
 import 'package:flutter_study_app/material/StudyRoute.dart';
 import 'package:flutter_study_app/material/StudyScaffold.dart';
+import 'package:flutter_study_app/material/StudyTabBar.dart';
 
 void main() {
   //配置App
-  runApp(new StudyBottomNavigationBarApp());
+  runApp(new StudyTabBarApp());
 }
 
 class MyApp extends StatelessWidget {
