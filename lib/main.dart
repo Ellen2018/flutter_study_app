@@ -15,11 +15,12 @@ import 'package:flutter_study_app/material/StudyFloatingActionButton.dart';
 import 'package:flutter_study_app/material/StudyPopMenuButton.dart';
 import 'package:flutter_study_app/material/StudyRoute.dart';
 import 'package:flutter_study_app/material/StudyScaffold.dart';
+import 'package:flutter_study_app/material/StudySnackBar.dart';
 import 'package:flutter_study_app/material/StudyTabBar.dart';
 
 void main() {
   //配置App
-  runApp(new StudyDialogApp());
+  runApp(new StudySnackBarApp());
 }
 
 class MyApp extends StatelessWidget {
