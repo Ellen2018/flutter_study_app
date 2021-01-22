@@ -9,13 +9,14 @@ import 'package:flutter_study_app/TextFormFieldStudy.dart';
 import 'package:flutter_study_app/TextStudy.dart';
 import 'package:flutter_study_app/material/StudyAppBar.dart';
 import 'package:flutter_study_app/material/StudyBottomNavigationBar.dart';
+import 'package:flutter_study_app/material/StudyDrawer.dart';
 import 'package:flutter_study_app/material/StudyRoute.dart';
 import 'package:flutter_study_app/material/StudyScaffold.dart';
 import 'package:flutter_study_app/material/StudyTabBar.dart';
 
 void main() {
   //配置App
-  runApp(new StudyTabBarApp());
+  runApp(new StudyDrawerApp());
 }
 
 class MyApp extends StatelessWidget {
