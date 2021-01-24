@@ -17,10 +17,11 @@ import 'package:flutter_study_app/material/StudyRoute.dart';
 import 'package:flutter_study_app/material/StudyScaffold.dart';
 import 'package:flutter_study_app/material/StudySnackBar.dart';
 import 'package:flutter_study_app/material/StudyTabBar.dart';
+import 'package:flutter_study_app/material/StudyTextField.dart';
 
 void main() {
   //配置App
-  runApp(new StudySnackBarApp());
+  runApp(new StudyTextFieldApp());
 }
 
 class MyApp extends StatelessWidget {
