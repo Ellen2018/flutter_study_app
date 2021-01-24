@@ -7,6 +7,7 @@ import 'package:flutter_study_app/RaisedButtonStudy.dart';
 import 'package:flutter_study_app/ContainerStudy.dart';
 import 'package:flutter_study_app/TextFormFieldStudy.dart';
 import 'package:flutter_study_app/TextStudy.dart';
+import 'package:flutter_study_app/layout/StudyContainer.dart';
 import 'package:flutter_study_app/material/StudyAppBar.dart';
 import 'package:flutter_study_app/material/StudyBottomNavigationBar.dart';
 import 'package:flutter_study_app/material/StudyCard.dart';
@@ -22,7 +23,7 @@ import 'package:flutter_study_app/material/StudyTextField.dart';
 
 void main() {
   //配置App
-  runApp(new StudyCardApp());
+  runApp(new StudyContainerApp());
 }
 
 class MyApp extends StatelessWidget {
