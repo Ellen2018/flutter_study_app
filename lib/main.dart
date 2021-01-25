@@ -24,9 +24,11 @@ import 'package:flutter_study_app/material/StudySnackBar.dart';
 import 'package:flutter_study_app/material/StudyTabBar.dart';
 import 'package:flutter_study_app/material/StudyTextField.dart';
 
+import 'layout/StudyRow.dart';
+
 void main() {
   //配置App
-  runApp(new StudyAlignApp());
+  runApp(new StudyRowApp());
 }
 
 class MyApp extends StatelessWidget {
