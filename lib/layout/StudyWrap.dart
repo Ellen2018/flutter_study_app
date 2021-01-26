@@ -10,6 +10,7 @@ class StudyWrapApp extends StatelessWidget{
   }
 }
 
+///轻轻松松利用Wrap完成流式布局
 class WrapDemo extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
