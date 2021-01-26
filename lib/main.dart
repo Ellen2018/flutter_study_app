@@ -9,6 +9,7 @@ import 'package:flutter_study_app/TextFormFieldStudy.dart';
 import 'package:flutter_study_app/TextStudy.dart';
 import 'package:flutter_study_app/layout/StudyAlign.dart';
 import 'package:flutter_study_app/layout/StudyAspectRatio.dart';
+import 'package:flutter_study_app/layout/StudyBaseLine.dart';
 import 'package:flutter_study_app/layout/StudyCenter.dart';
 import 'package:flutter_study_app/layout/StudyColumn.dart';
 import 'package:flutter_study_app/layout/StudyConstrainedBox.dart';
@@ -40,7 +41,7 @@ import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(new StudyTransformApp());
+  runApp(new StudyBaseLineApp());
 }
 
 class MyApp extends StatelessWidget {
