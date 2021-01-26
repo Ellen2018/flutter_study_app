@@ -15,6 +15,7 @@ import 'package:flutter_study_app/layout/StudyFittedBox.dart';
 import 'package:flutter_study_app/layout/StudyIndexStack.dart';
 import 'package:flutter_study_app/layout/StudyOverflowBox.dart';
 import 'package:flutter_study_app/layout/StudyPadding.dart';
+import 'package:flutter_study_app/layout/StudySizedBox.dart';
 import 'package:flutter_study_app/layout/StudyStack.dart';
 import 'package:flutter_study_app/material/StudyAppBar.dart';
 import 'package:flutter_study_app/material/StudyBottomNavigationBar.dart';
@@ -33,7 +34,7 @@ import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(new StudyOverflowBoxApp());
+  runApp(new StudySizedBoxApp());
 }
 
 class MyApp extends StatelessWidget {
