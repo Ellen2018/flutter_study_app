@@ -18,6 +18,7 @@ import 'package:flutter_study_app/layout/StudyFittedBox.dart';
 import 'package:flutter_study_app/layout/StudyFractionallySizedBox.dart';
 import 'package:flutter_study_app/layout/StudyIndexStack.dart';
 import 'package:flutter_study_app/layout/StudyLimitedBox.dart';
+import 'package:flutter_study_app/layout/StudyOffstage.dart';
 import 'package:flutter_study_app/layout/StudyOverflowBox.dart';
 import 'package:flutter_study_app/layout/StudyPadding.dart';
 import 'package:flutter_study_app/layout/StudySizedBox.dart';
@@ -41,7 +42,7 @@ import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(new StudyBaseLineApp());
+  runApp(new StudyOffstageApp());
 }
 
 class MyApp extends StatelessWidget {
