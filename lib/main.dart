@@ -10,6 +10,7 @@ import 'package:flutter_study_app/TextStudy.dart';
 import 'package:flutter_study_app/layout/StudyAlign.dart';
 import 'package:flutter_study_app/layout/StudyCenter.dart';
 import 'package:flutter_study_app/layout/StudyColumn.dart';
+import 'package:flutter_study_app/layout/StudyConstrainedBox.dart';
 import 'package:flutter_study_app/layout/StudyContainer.dart';
 import 'package:flutter_study_app/layout/StudyFittedBox.dart';
 import 'package:flutter_study_app/layout/StudyIndexStack.dart';
@@ -34,7 +35,7 @@ import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(new StudySizedBoxApp());
+  runApp(new StudyConstrainedBoxApp());
 }
 
 class MyApp extends StatelessWidget {
