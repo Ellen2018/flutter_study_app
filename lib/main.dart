@@ -7,6 +7,7 @@ import 'package:flutter_study_app/RaisedButtonStudy.dart';
 import 'package:flutter_study_app/ContainerStudy.dart';
 import 'package:flutter_study_app/TextFormFieldStudy.dart';
 import 'package:flutter_study_app/TextStudy.dart';
+import 'package:flutter_study_app/gesture/StudyGestureDetector.dart';
 import 'package:flutter_study_app/layout/StudyAlign.dart';
 import 'package:flutter_study_app/layout/StudyAspectRatio.dart';
 import 'package:flutter_study_app/layout/StudyBaseLine.dart';
@@ -43,7 +44,7 @@ import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(new StudyWrapApp());
+  runApp(new StudyGestureDetectorApp());
 }
 
 class MyApp extends StatelessWidget {

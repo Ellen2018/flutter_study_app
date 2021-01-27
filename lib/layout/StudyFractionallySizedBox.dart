@@ -11,6 +11,7 @@ class StudyFractionallySizedBoxApp extends StatelessWidget{
 
 }
 
+///百分比布局
 class FractionallySizedBoxDemo extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
