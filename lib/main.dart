@@ -1,51 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_study_app/ChenLang.dart';
-import 'package:flutter_study_app/GridViewStudy.dart';
-import 'package:flutter_study_app/IconButtonStudy.dart';
-import 'package:flutter_study_app/ListViewStudy.dart';
-import 'package:flutter_study_app/RaisedButtonStudy.dart';
-import 'package:flutter_study_app/ContainerStudy.dart';
-import 'package:flutter_study_app/TextFormFieldStudy.dart';
-import 'package:flutter_study_app/TextStudy.dart';
-import 'package:flutter_study_app/gesture/StudyDismissible.dart';
-import 'package:flutter_study_app/gesture/StudyGestureDetector.dart';
-import 'package:flutter_study_app/layout/StudyAlign.dart';
-import 'package:flutter_study_app/layout/StudyAspectRatio.dart';
-import 'package:flutter_study_app/layout/StudyBaseLine.dart';
-import 'package:flutter_study_app/layout/StudyCenter.dart';
-import 'package:flutter_study_app/layout/StudyColumn.dart';
-import 'package:flutter_study_app/layout/StudyConstrainedBox.dart';
-import 'package:flutter_study_app/layout/StudyContainer.dart';
-import 'package:flutter_study_app/layout/StudyFittedBox.dart';
-import 'package:flutter_study_app/layout/StudyFractionallySizedBox.dart';
-import 'package:flutter_study_app/layout/StudyIndexStack.dart';
-import 'package:flutter_study_app/layout/StudyLimitedBox.dart';
-import 'package:flutter_study_app/layout/StudyOffstage.dart';
-import 'package:flutter_study_app/layout/StudyOverflowBox.dart';
-import 'package:flutter_study_app/layout/StudyPadding.dart';
-import 'package:flutter_study_app/layout/StudySizedBox.dart';
-import 'package:flutter_study_app/layout/StudyStack.dart';
-import 'package:flutter_study_app/layout/StudyTable.dart';
-import 'package:flutter_study_app/layout/StudyTransform.dart';
-import 'package:flutter_study_app/layout/StudyWrap.dart';
-import 'package:flutter_study_app/material/StudyAppBar.dart';
-import 'package:flutter_study_app/material/StudyBottomNavigationBar.dart';
-import 'package:flutter_study_app/material/StudyCard.dart';
-import 'package:flutter_study_app/material/StudyDialog.dart';
-import 'package:flutter_study_app/material/StudyDrawer.dart';
-import 'package:flutter_study_app/material/StudyFloatingActionButton.dart';
-import 'package:flutter_study_app/material/StudyPopMenuButton.dart';
-import 'package:flutter_study_app/material/StudyRoute.dart';
-import 'package:flutter_study_app/material/StudyScaffold.dart';
-import 'package:flutter_study_app/material/StudySnackBar.dart';
-import 'package:flutter_study_app/material/StudyTabBar.dart';
-import 'package:flutter_study_app/material/StudyTextField.dart';
+import 'package:flutter_study_app/route/Page1.dart';
 
+import 'gesture/StudyDismissible.dart';
 import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(new StudyDismissibleApp());
+  runApp(MaterialApp(
+    home: Page1(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
