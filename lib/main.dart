@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study_app/anim/StudyAnimatedOpacity.dart';
 import 'package:flutter_study_app/route/Page1.dart';
 
+import 'anim/StudyHero.dart';
 import 'gesture/StudyDismissible.dart';
 import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(MaterialApp(
-    home: Page1(),
-  ));
+  runApp(StudyHeroApp());
 }
 
 class MyApp extends StatelessWidget {
