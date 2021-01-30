@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study_app/anim/StudyAnimatedOpacity.dart';
+import 'package:flutter_study_app/baseui/TextStudy.dart';
 import 'package:flutter_study_app/layout/StudyWrap.dart';
 import 'package:flutter_study_app/route/Page1.dart';
 
@@ -9,7 +10,7 @@ import 'layout/StudyRow.dart';
 
 void main() {
   //配置App
-  runApp(StudyWrapApp());
+  runApp(StudyTextApp());
 }
 
 class MyApp extends StatelessWidget {
