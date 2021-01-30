@@ -5,7 +5,7 @@
 ## Flutter学习
 
 > [1.Flutter的特点 & 核心](https://blog.csdn.net/ClAndEllen/article/details/113398884?spm=1001.2014.3001.5501)  
-> [2.Flutter开发 & Android开发的区别](https://blog.csdn.net/ClAndEllen/article/details/113431159)
+> [2.Flutter开发 & Android开发的区别](https://blog.csdn.net/ClAndEllen/article/details/113431159)  
 > [3.Flutter基础组件]()  
 > [4.Flutter基础布局]()  
 > [5.风格组件【Android & IOS】]()  
