@@ -6,17 +6,10 @@
 
 > [1.Flutter的特点 & 核心](https://blog.csdn.net/ClAndEllen/article/details/113398884?spm=1001.2014.3001.5501)  
 > [2.Flutter开发 & Android开发的区别](https://blog.csdn.net/ClAndEllen/article/details/113431159)  
-> [3.Flutter基础组件之Text文本组件](https://blog.csdn.net/ClAndEllen/article/details/113444161)  
-> [4.Flutter基础布局]()  
-> [5.风格组件【Android & IOS】]()  
-> 6.其它知识点  
-> &emsp;&emsp;[导入图片，字体等 & 如何使用]()  
-> &emsp;&emsp;[Flutter组件的装饰 & 视觉效果]()  
-> &emsp;&emsp;[Flutter 手势开发]()  
-> &emsp;&emsp;[Flutter动画开发【Animated & Hero】]()    
-> &emsp;&emsp;[聊聊Flutter中的异步]()  
-> &emsp;&emsp;[Flutter中的网络开发]()  
-
+> [3.Flutter基础组件之文本组件](https://blog.csdn.net/ClAndEllen/article/details/113444161)  
+> [4.Flutter基础组件之图片组件](https://blog.csdn.net/ClAndEllen/article/details/113505497)
+> [5.待更新]()  
+ 
 ## Flutter进阶学习
 
 > [1.Flutter如何进行混合开发]()  
